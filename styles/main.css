@@ -4,6 +4,7 @@ h1 {
     font-size: 50px;
     color: blue;
     line-height: 44px;
+    text-align: center;
 }
 
 .img-profile-picture {
@@ -45,5 +46,5 @@ li {
 li a {
     display: block;
     padding: 8px;
-    background-color: yellow;
+    background-color: bisque;
 }
