@@ -1,1 +1,7 @@
-<h1 style="color: blue;">British Shorthair</h1>
+.img-info p {
+    padding:30px 30px 20px;
+    font-family: arial;
+    font-size: 50px;
+    color: blue;
+    line-height: 44px;
+}
