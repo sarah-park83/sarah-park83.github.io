@@ -1,7 +1,11 @@
-.img-info p {
+h1 {
     padding:30px 30px 20px;
     font-family: arial;
     font-size: 50px;
     color: blue;
     line-height: 44px;
+}
+
+@media only screen and (min-width: 768px) {
+
 }
