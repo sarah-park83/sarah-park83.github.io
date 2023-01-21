@@ -1,10 +1,11 @@
-h1 {
-    padding:30px 30px 20px;
+#header {
+    background-color: lightcyan;
+    color: black;
     font-family: arial;
+    padding: 40px;
     font-size: 50px;
-    color: blue;
-    line-height: 44px;
     text-align: center;
+    position: fixed;
 }
 
 .img-profile-picture {
@@ -40,7 +41,7 @@ ul {
 }
 
 li {
-    float: right;
+    position: right;
 }
 
 li a {
