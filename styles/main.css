@@ -48,7 +48,7 @@ li a {
   }
   
   .nav a.active {
-    background-color: lightgoldenrodyellow;
+    background-color: lightgray;
     color: white;
   }
 
