@@ -88,13 +88,8 @@
   }
 }
 
-.arial {
-  font-family: Arial;
-}
-
-.main {
-  float: left;
-  width: 60%;
+body {
+  background-color: bisque;
 }
 
 #header {
@@ -107,10 +102,16 @@
 
 h1 {
   font-family: arial;
+  background-color: lightcyan;
+  font-size: 80px;
+  text-align: center;
 }
 
 h2 {
   font-family: arial;
+  text-align: center;
+  background-color: lightgreen;
+  font-size: 50px;
 }
 
 div {
