@@ -1,32 +1,71 @@
 <html>
-  <head>
-    <title>My Dev Adventure</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <link href="../styles/main.css" rel="stylesheet" type="text/css">
-  </head>
-  <body>
-    <div class="border-round col-6 col-s-9">
-      <h1 id="header">My Dev Adeventure</h1> 
-      <div class="nav">
-        <a class="active" href="https://sarah-park83.github.io/index.html">Home</a>
-        <a href="https://sarah-park83.github.io/blog/te-houtaewa-template.html">Te Houtaewa</a>
-        <a href="https://sarah-park83.github.io/blog/html-css.html">Margins</a>
-        <a href="https://sarah-park83.github.io/identity-values.html">Identity</a>
-        <a href="https://sarah-park83.github.io/learning-plan.html">Learning Plan</a>
-        <a href="https://sarah-park83.github.io/blog/emotional-intelligence.html">Emotional Intelligence</a>
-        <a href="https://sarah-park83.github.io/blog/javascript-dom.html">JavaScript-Dom</a>
-      </div>
-      <h2>Welcome to my learning journey with Dev Academy</h2>
-    </div>
-    <div class="col-3 col-s-12">
-      <p>
-        Hi! My name is Sarah Park. <br> 
-        I'm currently studying at Dev Academy to become a web developer.<br>
-        I'm enjoying learning new contents everyday, it keeps me motivated and gets me going!<br>
-        Here are my blogs that I have made during my journey with Dev Academy, hope you enjoy!
-      </p>
-    </div>
+<head>
+<title>My Dev Adventure</title>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<link href="../styles/main.css" rel="stylesheet" type="text/css">
+<style>
+  body {
+    margin: 0;
+  }
 
-  </body>
+  ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 25%;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+</style>
+</head>
+<body>
+  <div>
+    <h1 id="header">My Dev Adeventure</h1> 
+    <ul>
+      <li>Blogs</li>
+      <li><a class="active" href="https://sarah-park83.github.io/index.html">Home</a></li>
+      <li><a href="https://sarah-park83.github.io/blog/te-houtaewa-template.html">Te Houtaewa</a></li>
+      <li><a href="https://sarah-park83.github.io/blog/html-css.html">Margins</a></li>
+      <li><a href="https://sarah-park83.github.io/identity-values.html">Identity</a></li>
+      <li><a href="https://sarah-park83.github.io/learning-plan.html">Learning Plan</a></li>
+      <li><a href="https://sarah-park83.github.io/blog/emotional-intelligence.html">Emotional Intelligence</a></li>
+      <li><a href="https://sarah-park83.github.io/blog/javascript-dom.html">JavaScript-Dom</a></li>
+    </ul>
+
+  </div>
+  
+  <div style="margin-left:25%;padding:1px 16px;height:1000px;"></div>
+
+  <h2>Welcome to my learning journey with Dev Academy</h2>
+
+  <div>
+    <p>
+      Hi! My name is Sarah Park. <br> 
+      I'm currently studying at Dev Academy to become a web developer.<br>
+      I'm enjoying learning new contents everyday, it keeps me motivated and gets me going!<br>
+      Here are my blogs that I have made during my journey with Dev Academy, hope you enjoy!
+    </p>
+  </div>   
+
+</body>
 
 </html>
