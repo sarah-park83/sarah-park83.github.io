@@ -94,29 +94,29 @@ body {
 
 #header {
   color: black;
-  font-family: arial;
+  font-family: georgia;
   font-size: 50px;
   text-align: center;
 }
 
 h1 {
-  font-family: arial;
+  font-family: georgia;
   font-size: 50px;
   text-align: center;
 }
 
 h2 {
-  font-family: arial;
+  font-family: georgia;
   text-align: center;
   font-size: 30px;
 }
 
 div {
-  font-family: arial;
+  font-family: georgia;
 }
 
 p {
-  font-family: arial;
+  font-family: georgia;
   text-align: center;
 }
 
@@ -148,7 +148,7 @@ li a {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
-  font-family: arial;
+  font-family: georgia;
 }
 
 .nav a:hover {
