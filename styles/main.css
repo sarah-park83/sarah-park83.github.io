@@ -1,3 +1,98 @@
+@media only screen and (max-width: 375px) {
+  .left, .main, .right {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  .left, .main, .right {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 390px) {
+  .left, .main, .right {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 393px) {
+  .left, .main, .right {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .left, .main, .right {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 412px) {
+  .left, .main, .right {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 820px) {
+  .left, .main, .right {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .left, .main, .right {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 912px) {
+  .left, .main, .right {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .left, .main, .right {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 280px) {
+  .left, .main, .right {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 412px) {
+  .left, .main, .right {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .left, .main, .right {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  .left, .main, .right {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 1905px) {
+  .left, .main, .right {
+    width: 100%;
+  }
+}
+
+.main {
+  float: left;
+  width: 60%;
+}
+
 #header {
     background-color: lightcyan;
     color: black;
@@ -54,18 +149,5 @@ li a {
 
 [class*="col-"] {
     width: 100%;
-  }
-
-  
-
-@media only screen and (max-width: 1905px) {
-    .left, .main, .right {
-      width: 100%;
-    }
-  }
-@media only screen and (max-width: 820px) {
-    .left, .main, .right {
-      width: 100%;
-    }
   }
 
