@@ -89,7 +89,7 @@
 }
 
 body {
-  background: rgba(0, 128, 0, 0.3);
+  background: white;
 }
 
 #header {
@@ -136,7 +136,7 @@ li a {
 }
 
 .nav {
-  background-color: lightcoral;
+  background-color: lightcyan;
   overflow: hidden;
   }
   
