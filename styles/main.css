@@ -88,6 +88,10 @@
   }
 }
 
+.arial {
+  font-family: Arial;
+}
+
 .main {
   float: left;
   width: 60%;
