@@ -22,7 +22,7 @@ iframe, object, embed {
 
 
 /* Portrait phones */
-@media screen and (man-width: 450px) {
+@media screen and (min-width: 450px) {
   .full-width-img {
     margin: auto;
     width: 90%;
@@ -40,13 +40,13 @@ iframe, object, embed {
 
   body, p, a {
 
-    font-size: 9px;
+    font-size: 3px;
       
     }
   }
 
   /* Tablets */
-@media only screen and (max-width: 750px) {
+@media only screen and (min-width: 750px) {
   #wrapper {width:90%;  margin: 0 auto; }
 
   #content {width:60%; float:left; }
@@ -55,13 +55,13 @@ iframe, object, embed {
 
   body, p, a {
 
-    font-size: 11px;
+    font-size: 4px;
     
     }
 }
 
 /* Laptops */
-@media only screen and (max-width: 992px) {
+@media only screen and (min-width: 992px) {
 
   body, p, a {
 
@@ -71,12 +71,12 @@ iframe, object, embed {
 }
 
 /* Large devices */
-@media only screen and (max-width: 1200px) {
+@media only screen and (min-width: 1200px) {
   #wrapper {width:90%;  margin: 0 auto; }
 
   body, p, a {
 
-    font-size: 50px;
+    font-size: 15px;
     
     }
 }
