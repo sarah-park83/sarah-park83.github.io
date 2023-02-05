@@ -11,11 +11,7 @@ iframe, object, embed {
 } 
 
 /* Portrait phones */
-@media screen and (min-width: 400px) {
-  .full-width-img {
-    margin: auto;
-    width: 90%;
-    }
+@media screen and (min-width: 390px) {
 
   #wrapper {width:95%;  margin: 0 auto;}
 
