@@ -8,18 +8,7 @@
 
 iframe, object, embed {
   width: 100%
-}
-
-#wrapper {width:95%;  margin: 0 auto; }
-
-#header {width:100%; }
-
-#content {width:100%; }
-
-#sidebar {width:100%; }
-
-#footer {width:100%; }
-
+} 
 
 /* Portrait phones */
 @media screen and (min-width: 400px) {
@@ -62,6 +51,7 @@ iframe, object, embed {
 
 /* Laptops */
 @media only screen and (min-width: 950px) {
+  #wrapper {width:90%;  margin: 0 auto; }
 
   body, p, a {
 
