@@ -13,36 +13,36 @@ iframe, object, embed {
 /* Portrait phones */
 @media screen and (min-width: 390px) {
 
-  #wrapper {width:95%;  margin: 0 auto;}
+  #wrapper {width:95%;  margin: 0 auto; }
 
-  #header {width:95%;}
-
-  #content {width:95%;}
-
-  #sidebar {width:95%;}
-
-  #footer {width:95%;}
+  #header {width:100%; }
+  
+  #content {width:100%; }
+  
+  #sidebar {width:100%; }
+  
+  #footer {width:100%; }
 
   body, p, a {
 
-    font-size: 3px;
+    font-size: 14px;
       
     }
   }
 
   /* Tablets */
-@media only screen and (min-width: 750px) {
+@media only screen and (min-width: 576px) {
+  
+}
+
+
+@media (min-width: 768px) {
+
   #wrapper {width:90%;  margin: 0 auto; }
-
-  #content {width:60%; float:left; }
-
-  #sidebar {width:35%; float:right; }
-
-  body, p, a {
-
-    font-size: 4px;
-    
-    }
+  
+  #content {width:70%; float:left; }
+  
+  #sidebar {width:30%; float:right; }
 }
 
 /* Laptops */
