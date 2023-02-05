@@ -22,7 +22,7 @@ iframe, object, embed {
 
 
 /* Portrait phones */
-@media screen and (min-width: 450px) {
+@media screen and (min-width: 400px) {
   .full-width-img {
     margin: auto;
     width: 90%;
@@ -61,7 +61,7 @@ iframe, object, embed {
 }
 
 /* Laptops */
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 950px) {
 
   body, p, a {
 
