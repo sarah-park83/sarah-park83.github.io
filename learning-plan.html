@@ -5,9 +5,45 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="../styles/main.css" rel="stylesheet" type="text/css">
         <title>HTML Template</title>
+        <style>
+            body {
+                margin: 0;
+            }
+          
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                width: 25%;
+                background-color: #f1f1f1;
+                position: fixed;
+                height: 100%;
+                overflow: auto;
+            }
+          
+            li a {
+                display: block;
+                color: #000;
+                padding: 8px 16px;
+                text-decoration: none;
+            }
+          
+            li a.active {
+                background-color: #04AA6D;
+                color: white;
+            }
+          
+            li a:hover:not(.active) {
+                background-color: #555;
+                color: white;
+            }
+        </style>
     </head>
     <body>
     <main>
+        <div class="nav">
+            <a class="active" href="https://sarah-park83.github.io/index.html">Home</a>
+        </div>
         <h1 id="header">Learning Plan</h1>
         <h2>1.   What is your long term goal or career pathway?</h2>
         <p> I would like to achieve my long term goal of becoming a software engineering consultant.<br>
