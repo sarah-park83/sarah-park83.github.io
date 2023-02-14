@@ -7,7 +7,7 @@ iframe, object, embed {
 } 
 
 /* Portrait phones */
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 300px) {
 
   #wrapper {width:95%;  margin: 0 auto; }
   
@@ -19,7 +19,19 @@ iframe, object, embed {
 
     font-size: 14px;
       
-    }
+  }
+  body > h1 {
+    font-size: 30px;
+  }
+
+  body > .content {
+    width: 95%
+  }
+
+  body > h2 {
+    font-size: 20px
+  }
+
   }
 
   /* Tablets */
@@ -35,6 +47,19 @@ iframe, object, embed {
 
     font-size: 15px;
   }
+
+  body h1 {
+    font-size: 40px;
+    padding: 75px 50px 75px 50px;
+  }
+
+  body > .content {
+    width: 85%
+  }
+
+  body h2 {
+    font-size: 30px
+  }
   
 }
 
@@ -46,34 +71,43 @@ iframe, object, embed {
 
     font-size: 14px;
     
-    }
+  }
+
+  body > h1 {
+    font-size: 50px;
+  }
+
 }
 
+.content {
+  width: 70%;
+  margin: auto;
+}
 
 
 body {
   background: white;
+  margin: 0;
 }
 
 #header {
   color: black;
   font-family: georgia;
-  font-size: 50px;
   text-align: center;
 }
 
 h1 {
   font-family: georgia;
-  font-size: 40px;
+  font-size: 25px;
   text-align: center;
-  padding: 75px 50px 75px 50px;
   background:beige;
+  padding: 30px 25px 30px 25px;
 }
 
 h2 {
   font-family: georgia;
   text-align: center;
-  font-size: 30px;
+  font-size: 18px;
 }
 
 div {
@@ -82,7 +116,7 @@ div {
 
 p {
   font-family: georgia;
-  text-align: center;
+  text-align: left;
 }
 
 ul {
@@ -137,4 +171,13 @@ ul {
   overflow: auto;
 }
 
+li a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
 
